@@ -124,6 +124,7 @@ public class TestTaskThree {
         displaySearchResultsMethod.invoke(searchController, model, "skill", "ruby");
         assertNotNull(model.getAttribute("jobs"));
         assertNotNull(model.getAttribute("columns"));
+        // can't figure out why this is needed
     }
 
 }
